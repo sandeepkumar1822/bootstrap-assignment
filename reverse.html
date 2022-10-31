@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>reverse of a number </title>
+</head>
+<body>
+    <script>
+        var num=parseInt(prompt("Enter a number"));
+        var sum=0;
+       for(var i=0;i<4;i++){
+       if(num>0){
+        var unitNum=num/10
+       
+        sum=sum+unitNum;
+        num=parseInt(num%10);
+       }
+       }
+
+        document.write(sum);
+    </script>
+    
+</body>
+</html>
